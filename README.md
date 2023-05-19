@@ -11,13 +11,9 @@
 9. [ Contributing. ](#contributing)
 9. [ Questions. ](#questions)
 
-### For license description, click on the badge to get more information.
-[![License](https://img.shields.io/badge/License-MIT%20-blue.svg)](https://opensource.org/licenses/mit)
-
-<a name="desc"></a>
 ## 1. Description
 
-This application is a backend application servicing front end routes and using MySQL database with Node.Js, Express, Sequelize and dotenv.
+This application is a backend application servicing front end routes and using MySQL database with Node and Express. 
 
 ### Major tech snapshot
 
@@ -131,19 +127,3 @@ Once the above is done, you can now use Insomnia to do the routes commands.
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
-
-
-<a name="contributing"></a>
-## 9. Contributing
-
-Please email Esteban Romero.
-
-<a name="questions"></a>
-## 10. Questions
-
-Please reach out to me
-
-GitHub Url: https://github.com/esroleo
-
-Email address: esroleo@gmail.com
-
