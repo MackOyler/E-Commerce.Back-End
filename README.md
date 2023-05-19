@@ -14,8 +14,7 @@ This application is a backend application servicing front end routes and using M
 
 ### Open your favorite web browser and enter the following web address to access to the README.md
 
-https://github.com/esroleo/orm-e-commerce-back-end
-
+https://github.com/MackOyler/E-Commerce.Back-End
 
 <a name="usage"></a>
 ## 3. Usage Tips
