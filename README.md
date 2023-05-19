@@ -1,21 +1,11 @@
 ## Object-Relational Mapping (ORM) Challenge: E-commerce Back End
 
-1. [ Description. ](#desc)
-2. [ Web Address. ](#web-address)
-3. [ Usage tips. ](#usage)
-4. [ Features. ](#features)
-5. [ Credits. ](#credits)
-6. [ Licenses. ](#licenses)
-7. [ Install Command. ](#commandInstall)
-8. [ Test Command. ](#commandTest)
-9. [ Contributing. ](#contributing)
-9. [ Questions. ](#questions)
 
 ## 1. Description
 
 This application is a backend application servicing front end routes and using MySQL database with Node and Express. 
 
-### Major tech snapshot
+### Snapshot
 
 ![tech](./assets/images/code-used.JPG?raw=true "code-used.JPG")
 
@@ -96,34 +86,3 @@ https://drive.google.com/file/d/1rrdGjDfXXBAhJCULTVtFThZ9iggzaNVh/view
 
 
 <a name="credits"></a>
-## 5. Credits
-
-Thank you Esteban Romero for working on this project.
-
-<a name="licenses"></a>
-## 6. Licenses
-
-mit
-
-<a name="commandInstall"></a>
-## 7. Install Command
-
-### Database dependency is --> mysql Ver 8.0.23 for Win64 on x86_64  
-### npm install command will install javascript dependencies
-
-npm i
-
-<a name="commandTest"></a>
-## 8. Test Command
-
-You can sync model changes by changing **force: false** to true. This will also remove all data and start fresh.
-Once you have synced, stop the applicatio by using ctrl + c on your keyboard and change the force:true to false and restart the application.
-
-Once the above is done, you can now use Insomnia to do the routes commands.
-
-@ server.js line 14
-
-// sync sequelize models to the database, then turn on the server
-sequelize.sync({ force: false }).then(() => {
-  app.listen(PORT, () => console.log('Now listening'));
-});
