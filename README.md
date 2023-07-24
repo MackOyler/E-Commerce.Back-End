@@ -1,9 +1,8 @@
-## Object-Relational Mapping (ORM) Challenge: E-commerce Back End
-
+## E-commerce Back End
 
 ## 1. Description
 
-This application is a backend application servicing front end routes and using MySQL database with Node and Express. 
+This application is a backend application servicing front-end routes and using MySQL database with Node and Express. 
 
 ### Snapshot
 
